@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad.Sub_Seguimiento
 {
-    public class EntEvaluador
+    public class EntEvaluador : Empleado
     {
+        public int CodigoEvaluador { get; set; }
+        public int ZonaCampoAsignada { get; set; }
+    
     }
 }

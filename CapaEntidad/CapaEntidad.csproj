@@ -44,6 +44,13 @@
     <Compile Include="EvaluacionModulo.cs" />
     <Compile Include="PlantaAfectada.cs" />
     <Compile Include="PerdidaPlanta.cs" />
+    <Compile Include="Sub Seguimiento\EvaluacionModulo.cs" />
+    <Compile Include="Sub Seguimiento\EvaluadorFito.cs" />
+    <Compile Include="Sub Seguimiento\JefeFito.cs" />
+    <Compile Include="Sub Seguimiento\PerdidaPlanta.cs" />
+    <Compile Include="Sub Seguimiento\PlantaAfectada.cs" />
+    <Compile Include="Sub Seguimiento\ProgramacionSemanal.cs" />
+    <Compile Include="Sub Seguimiento\SupervisorFito.cs" />
     <Compile Include="Trasplante.cs" />
     <Compile Include="ProgramacionSemanal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

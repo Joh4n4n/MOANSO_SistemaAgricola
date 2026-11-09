@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class Class1
+    public class EntEvaluacionModulo
     {
+        public int idEvaluacion { get; set; }
+
+        public int idProgramacion { get; set; }
+
+        public int idTrasplante { get; set; }
+
+        public DateTime fecEvaluacion { get; set; }
+        public double porcentajePerdida { get; set; }
+
+        public string estado { get; set; }
+        
+   
     }
 }

@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class Class1
+    public class EntTrasplante
     {
+        public int idTrasplante { get; set; }
+
+        public string codigoLote {  get; set; }
+
+        public string tipocultivo { get; set; }
+
+        public DateTime fecTrasplante { get; set; }
+
+        public int cantidadInicial { get; set; }
     }
 }

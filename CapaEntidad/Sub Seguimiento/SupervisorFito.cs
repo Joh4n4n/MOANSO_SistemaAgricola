@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad.Sub_Seguimiento
 {
-    internal class Class1
+    public class EntSupervisor
     {
     }
 }

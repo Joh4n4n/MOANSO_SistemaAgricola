@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    internal class Class1
+    public class EntPerdidaPlanta
     {
+        public int idPerdida {  get; set; }
+
+        public int idEvaluacion { get; set; }
+
+        public int CantidadPerdida  { get; set; }
+
+        public string causa {  get; set; }
+
+        public string observacion { get; set; }
     }
 }

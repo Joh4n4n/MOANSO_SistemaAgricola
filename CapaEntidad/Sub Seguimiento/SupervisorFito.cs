@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad.Sub_Seguimiento
 {
-    public class EntSupervisor
+    public class EntSupervisor : Empleado
     {
+        public int CodigoSupervisor { get; set; }
+        public string NivelAutorizacion { get; set; }
+    
     }
 }

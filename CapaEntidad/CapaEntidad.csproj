@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Sub Seguimiento\Empleado.cs" />
     <Compile Include="Sub Seguimiento\EvaluacionModulo.cs" />
     <Compile Include="Sub Seguimiento\EvaluadorFito.cs" />
     <Compile Include="Sub Seguimiento\JefeFito.cs" />

@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad.Sub_Seguimiento
 {
-    public class EntJefe : Empleado
+    internal class Class1
     {
-        public int CodigoJefe { get; set; }
-    
     }
 }

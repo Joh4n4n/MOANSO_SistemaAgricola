@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad.Sub_Seguimiento
 {
-    public abstract class Empleado
+    public abstract class Desviacion
     {
         public int Id { get; set; }
         public string Nombres { get; set; }

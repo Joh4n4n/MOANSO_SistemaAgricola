@@ -1,6 +1,6 @@
 ﻿namespace MOANSO_SistemaAgricola.Sub_SeguimientoForms
 {
-    partial class Form1
+    partial class SeguiProgramacion
     {
         /// <summary>
         /// Required designer variable.

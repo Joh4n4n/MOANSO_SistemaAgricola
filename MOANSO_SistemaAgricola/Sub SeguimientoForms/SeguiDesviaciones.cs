@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace MOANSO_SistemaAgricola.Sub_SeguimientoForms
 {
-    public partial class Form1 : Form
+    public partial class SeguiDesviaciones : Form
     {
-        public Form1()
+        public SeguiDesviaciones()
         {
             InitializeComponent();
         }

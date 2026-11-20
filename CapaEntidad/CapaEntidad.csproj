@@ -41,14 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Sub Seguimiento\Empleado.cs" />
+    <Compile Include="Sub Seguimiento\CaracteristicasEvaluacion.cs" />
+    <Compile Include="Sub Seguimiento\Desviacion.cs" />
     <Compile Include="Sub Seguimiento\EvaluacionModulo.cs" />
-    <Compile Include="Sub Seguimiento\EvaluadorFito.cs" />
-    <Compile Include="Sub Seguimiento\JefeFito.cs" />
-    <Compile Include="Sub Seguimiento\PerdidaPlanta.cs" />
-    <Compile Include="Sub Seguimiento\PlantaAfectada.cs" />
+    <Compile Include="Sub Seguimiento\Modulo.cs" />
+    <Compile Include="Sub Seguimiento\Planta.cs" />
     <Compile Include="Sub Seguimiento\ProgramacionSemanal.cs" />
-    <Compile Include="Sub Seguimiento\SupervisorFito.cs" />
+    <Compile Include="Sub Seguimiento\TipoIncidencia.cs" />
     <Compile Include="Trasplante.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -11,6 +11,8 @@ namespace CapaEntidad
     {
         public int IdProgramacion { get; set; }
 
+        public int IdModulo { get; set; }
+
         public int IdEvaluador { get; set; }
 
         public DateTime fechaInicio { get; set; }

@@ -12,13 +12,13 @@ namespace CapaEntidad
 
         public int idProgramacion { get; set; }
 
-        public int idTrasplante { get; set; }
+        public string observaciones { get; set; }
 
         public DateTime fecEvaluacion { get; set; }
-        public double porcentajePerdida { get; set; }
+        public int PlantasEvaluadas { get; set; }
+        public int PlantasAfectadas { get; set; }
+        public int Perdidas { get; set; }
 
-        public string estado { get; set; }
-        
-   
+
     }
 }

@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad.Sub_Seguimiento
 {
-    internal class TipoIncidencia
+    public class TipoIncidencia
     {
+        public int IdTipoIncidencia { get; set; }
+
+        public string NombreTipo { get; set; }
+
+        public string DescripcionIncidencia { get; set; }
+
+        public string activoTipo { get; set; }
     }
 }

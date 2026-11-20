@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad.Sub_Seguimiento
 {
-    public abstract class Desviacion
+    public class Desviacion
     {
-        public int Id { get; set; }
-        public string Nombres { get; set; }
-        public string Apellidos { get; set; }
-        public string Dni { get; set; }
-        public string Correo { get; set; }
+        public int IdDesviacion { get; set; }
+
+        public int IdEvaluacion { get; set; }
+
+        public int IdTipoIncidencia { get; set; }
+
+        public string Descripcion { get; set; }
+
+        public DateTime fecRegistro { get; set; }
     }
 }

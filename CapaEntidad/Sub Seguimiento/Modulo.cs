@@ -6,16 +6,16 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    public class EntPerdidaPlanta
+    public class Modulo
     {
-        public int idPerdida {  get; set; }
+        public int idModulo {  get; set; }
 
-        public int idEvaluacion { get; set; }
+        public int Codigo { get; set; }
 
-        public int CantidadPerdida  { get; set; }
+        public string NombreModulo  { get; set; }
 
-        public string causa {  get; set; }
+        public string ZonaAgricola {  get; set; }
 
-        public string observacion { get; set; }
+        public string activo { get; set; }
     }
 }

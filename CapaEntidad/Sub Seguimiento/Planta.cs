@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace CapaEntidad
 {
-    public class EntPlantaAfectada
+    public class Planta
     {
-        public int idAfectacion { get; set; }
+        public int idPlanta { get; set; }
 
-        public int IdEvaluacion { get; set; }
+        public int codigoPlanta {  get; set; }
 
-        public string tipo {  get; set; }
-
-        public int NivelSeveridad { get; set; }
-
-        public string codigoLote { get; set; }
+        public string NombreComun { get; set; }
+        public string Variedad { get; set; }
+        public bool Activo { get; set; }
     }
 }
